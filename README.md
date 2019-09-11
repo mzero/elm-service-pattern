@@ -19,6 +19,8 @@ events events back in the sub-components.
 This application demonstrates techniques to handle this cleanly, and
 extensibly.
 
+> See it in action: [Run the app](https://mzero.github.io/elm-service-pattern/)
+
 It easily supports multiple services (in linear code). It allows service
 requests to have message functions (like `Html.Evnets` handlers), and trigger
 those back at a later time. It allows services to make use of `port` and `Cmd`.
@@ -30,6 +32,9 @@ The docs have a path that layout key ideas in order. Afterward, definitely
 look at the source code to see the details of how it is done.
 
 Read at the docs in this sequence:
+
+_If you are looking at this on github the links below won't work._ Instead,
+browse over to the [elm doc preview version](https://elm-doc-preview.netlify.com/?repo=mzero%2Felm-service-pattern).
 
 - [`SizePicker`](SizePicker) — the interface for clients that want to use the
   size picking service
