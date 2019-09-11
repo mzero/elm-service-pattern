@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+  	.row {
+  		display: flex;
+  	}
+  	.col {
+  		flex: 1 0;
+  	}
+  	.clients {
+  		background-color: #fbf9c3;
+  	}
+  	.services {
+  		flex: 1 0;
+  		background-color: #cce;
+  	}
+  	.module {
+  		margin: 2rem;
+  		padding: 0.5rem 1rem 1rem;
+  		border-radius: 1rem;
+  		background-color: #fff;
+  	}
+  	.box {
+  		margin 0 auto;
+  		background-color: #444;
+  		border: 1px #444 solid;
+  	}
+  </style>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <main></main>
+  <script>
+    var app = Elm.Main.init({ node: document.querySelector('main') })
+  </script>
+</body>
+</html>

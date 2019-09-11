@@ -1,0 +1,16 @@
+{
+    "name": "mzero/elm-service-pattern",
+    "summary": "An example of how to create service sub-components",
+    "repository": "http://github.com/mzero/elm-service-pattern.git",
+    "version": "0.9.0",
+    "exposed-modules": [
+        "ColorPicker",
+        "ColorPicker.Service",
+        "Command",
+        "SizePicker",
+        "SizePicker.Service",
+        "Sub1",
+        "Sub2",
+        "Top"
+    ]
+}
