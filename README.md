@@ -34,7 +34,7 @@ look at the source code to see the details of how it is done.
 Read at the docs in this sequence:
 
 _If you are looking at this on github the links below won't work._ Instead,
-browse over to the [elm doc preview version](https://elm-doc-preview.netlify.com/?repo=mzero%2Felm-service-pattern).
+browse over to the [elm doc preview version](https://elm-doc-preview.netlify.app/?repo=mzero%2Felm-service-pattern).
 
 - [`SizePicker`](SizePicker) — the interface for clients that want to use the
   size picking service
