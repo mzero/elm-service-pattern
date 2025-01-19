@@ -36,13 +36,13 @@ Read at the docs in this sequence:
 _If you are looking at this on github the links below won't work._ Instead,
 browse over to the [elm doc preview version](https://elm-doc-preview.netlify.app/?repo=mzero%2Felm-service-pattern).
 
-- [`SizePicker`](SizePicker) — the interface for clients that want to use the
+- [`SizePicker`](src/SizePicker.elm) — the interface for clients that want to use the
   size picking service
-- [`Sub1`](Sub1) — a sub-component of the main app, which uses those services
-- [`Command`](Command) — a type like `Cmd`, but that covers all the kinds of 
+- [`Sub1`](src/Sub1.elm) — a sub-component of the main app, which uses those services
+- [`Command`](src/Command.elm) — a type like `Cmd`, but that covers all the kinds of 
   requests code can make, including the service requests
-- [`SizePicker.Service`](SizePicker.Service) - the implementation of the
+- [`SizePicker.Service`](src/SizePicker/Service.elm) - the implementation of the
   service, which, for the most part is just a standard sub-component
-- [`Top`](Top) — the top component that has sub-components in the usual way,
+- [`Top`](src/Top.elm) — the top component that has sub-components in the usual way,
   but also handles distributing requests to, and responses from the services
 
